@@ -11,7 +11,7 @@
 #   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
-
+rere
 GO_VERSION  ?= $(shell go run ./scripts/detectgoversion/detect.go 2>/dev/null || printf '1.18')
 BINNAME     ?= move2kube
 BINDIR      := $(CURDIR)/bin
